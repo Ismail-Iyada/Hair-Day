@@ -1,0 +1,197 @@
+body{
+    background-color: pink;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#book a{
+    color: rgb(255, 0, 85);
+    text-decoration: none;
+    text-shadow: 10px 0 2px lightblue;
+    animation: shiny 1s linear infinite;
+
+}
+
+@keyframes shiny{
+    20%{
+        text-shadow: 10px 0 6px yellow;
+    }
+    40%{
+        text-shadow: -10px 0px 10px gray;
+    }
+    60%{
+        text-shadow: 10px 0 6px orange;
+    }
+    80%{
+        text-shadow: -10px 0 2px beige;
+    }
+    100%{
+        text-shadow: 10px 0 2px lightblue;
+    }
+}
+
+h2{
+    font-size: 2rem;
+    color: blue;
+}
+
+header > img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 0;
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 2vh;
+    border-left: 2px pink solid;
+}
+
+nav a{
+    color: purple;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2.5px;
+}
+nav a:link{
+    color: purple;
+}
+nav a:visited{
+    color: orange ;
+}
+nav a:hover{
+    color: red;
+    box-shadow: 5px 5px 5px brown;
+}
+nav a:active{
+    color: black;
+    box-shadow: -5px -5px 5px darkorchid;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+.promotion{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(250, 162, 176);
+    border-radius: 10px;
+    margin: 40px 0 10px 0;
+    background-image: url("https://www.insureon.com/-/jssmedia/industry-and-professions/imagery/personal-care/hair-salon-and-stylists/illustration_hair-salon-stylist.png?h=300&iar=0&w=456&rev=35b6188126fc43b3ac80f49fc295a3e1");
+    background-repeat: no-repeat;
+    background-size: auto;
+    animation: promote 10s linear infinite;
+}
+
+@keyframes promote{
+    0%{
+        box-shadow: 0 0 50px peru;
+    }
+    20%{
+        box-shadow: 0 0 50px brown;
+    }
+    40%{
+        box-shadow: 0 0 50px blueviolet;
+    }
+    60%{
+        box-shadow: 0 0 50px blue;
+    }
+    80%{
+        box-shadow: 0 0 50px black;
+    }
+    95%{
+        box-shadow: 0 0 50px white;
+    }
+    100%{
+        box-shadow: 0 0 50px peru;
+    }
+}
+
+#book{
+    text-align: center;
+}
+
+.promotion p{
+    font-size: large;
+    margin: 1% 5%;
+    width: 75%;
+    color: black;
+    font-weight: bold;
+}
+
+.infos article{
+    padding: 1%;
+    background-color: lightblue;
+    margin: 20px 1%
+}
+
+#fir{
+    margin-left: 0%;
+}
+
+#las{
+    margin-right: 0%;
+}
+
+.infos p{
+    margin: 0 1%;
+    padding: 5px 10px;
+}
+
+.infos img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer img{
+    width: 6.25em;
+}
+
+.copy{
+    border-top: 3px solid black;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.copy > p{
+    margin-top: 0;
+    padding-top: 0;
+    float: right;
+}
+
+#book a:hover{
+    color: rgb(250, 162, 176);
+    background-color: rgb(255, 0, 85);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
